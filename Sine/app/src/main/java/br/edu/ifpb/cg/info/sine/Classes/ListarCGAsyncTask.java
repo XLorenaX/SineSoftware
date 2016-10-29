@@ -15,9 +15,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
-/**
- * Created by Diego A. Gama on 29/10/2016.
- */
 public class ListarCGAsyncTask extends AsyncTask<String, Void, ArrayList<Sine>> {
 
     @Override
