@@ -10,9 +10,7 @@ import br.edu.ifpb.cg.info.sine.Classes.Sine;
 
 import static android.support.v4.app.ActivityCompat.startActivity;
 
-/**
- * Created by Diego A. Gama on 29/10/2016.
- */
+
 public class OnItemClick implements AdapterView.OnItemClickListener {
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
