@@ -20,7 +20,7 @@ public class OnItemClick implements AdapterView.OnItemClickListener {
         Sine incomingObject = (Sine) adapterView.getAdapter().getItem(i);
 
         Intent intent = new Intent(null, DetalhaActivity.class);
-        intent.putExtra(incomingObject.getCodPost(), "chave");
+        intent.putExtra("chave", incomingObject.getCodPost());
         startActivity(new DetalhaActivity(), intent, null);
     }
 
