@@ -13,9 +13,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-/**
- * Created by Diego A. Gama on 29/10/2016.
- */
+
 public class DetalharAsyncTask extends AsyncTask<String, Void, Sine> {
 
     @Override
