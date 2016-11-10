@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Sine</string>
+    <string name="title_activity_mapa_sine">Map</string>
 </resources>
